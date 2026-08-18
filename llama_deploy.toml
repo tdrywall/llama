@@ -12,5 +12,3 @@ name = "llama_parse_service"
 source.type = "local"
 source.name = "."
 python_executable = "python"
-# Warning: placeholder file only.
-# This repository does not define root-level llama deploy configuration.
