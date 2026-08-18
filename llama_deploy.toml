@@ -1,0 +1,14 @@
+[deployment]
+name = "llama"
+
+[deployment.control_plane]
+port = 8000
+
+[deployment.message_queue]
+type = "simple"
+
+[[deployment.services]]
+name = "llama_parse_service"
+source.type = "local"
+source.name = "."
+python_executable = "python"
