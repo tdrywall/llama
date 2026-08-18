@@ -12,6 +12,4 @@ name = "llama_parse_service"
 source.type = "local"
 source.name = "."
 python_executable = "python"
-
-[deployment.services.workflow]
-path = "workflow:LlamaParseWorkflow"
+workflow.path = "workflow:LlamaParseWorkflow"
