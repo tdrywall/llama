@@ -1,2 +1,5 @@
-# Warning: placeholder file only.
-# This repository does not define root-level llama agents configuration.
+workflows:
+  - name: llama_parse_workflow
+    source:
+      type: local
+      name: "."
