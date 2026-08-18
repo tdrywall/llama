@@ -1,3 +1,15 @@
 # Warning: placeholder file only.
 # This repository does not define a Python project configuration.
 [tool]
+
+[project]
+name = "llama"
+version = "0.1.0"
+description = "LlamaParse document parsing workflow"
+requires-python = ">=3.10"
+dependencies = [
+    "llama-parse",
+    "llama-index-core",
+    "llama-deploy",
+    "python-dotenv",
+]
